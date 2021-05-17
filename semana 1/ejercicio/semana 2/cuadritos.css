@@ -1,0 +1,33 @@
+
+
+
+
+
+
+                                                                                     
+
+.padre{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hijo {
+    width: 30%;
+    height: 30%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nieto {
+    width: 20%;
+    height: 20%;
+    border: 2px solid pink;
+}
+

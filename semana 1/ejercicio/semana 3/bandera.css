@@ -1,0 +1,36 @@
+body{
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+display: flex;
+}
+
+.izquierdoSuperior, .izquierdoInferior, .derechaSuperior, .derechaInferior{
+    background-color: white;
+}
+
+.cuadroIzquierdo, .cuadroDerecha{
+    background-color: #002868;
+}
+   
+.cuadroIzquierdo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.izquierdoSuperior{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rojoizquierda{
+    background-color: #ef2b2d;
+    width: 80%;
+    height: 80%;
+}
